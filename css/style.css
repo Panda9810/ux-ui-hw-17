@@ -1,0 +1,46 @@
+/*Target the div with the class 'logo'*/
+.logo {
+    width:23%;
+    padding:1%;
+} 
+/*Target the HTML 'nav' element */
+nav {
+    width: 73%;
+    padding:1%;
+}
+/* Target the unorder list*/
+ul {
+    width: 50%;
+    margin-left:auto;
+}
+/*center images inside the 'logo' class*/ 
+.logo img{
+    display:block; /* Ensures images are block-level elements*/
+    margin:0 auto; /* center horizontally */
+}
+/*additional styles for the hero image*/
+.heroImg {
+    height: 600px;
+    padding: 25px;
+}
+.content {
+    width: 500px;
+    margin: 0 auto; /*center horizontally*/
+}
+/*target the base HTML 'footer' element */
+footer {
+    background-color: #373738;
+    text-align: center; /*add padding to center the content vertically */
+}
+/* Target the 'ul' element inside the footer */
+footer ul {
+    display:inline-block;
+    vertical-align: top;
+    padding: 0; /*remove default list padding */
+}
+/* Style the 'li' elements inside the 'ul' */
+footer li {
+    display: block; /*display list items as block elements */
+    padding: 5px; /*add pading to center the text inside the list */
+    margin: 0; /*remove any default margin */
+}
